@@ -1,0 +1,18 @@
+
+header{
+    font-family: 'Capture it';
+    height: 91vw;
+    background-image: url("../img/Черная\ плашка.png");
+    background-size: cover;
+    color: white;
+    font-size: 18vw;
+    text-align: center;
+    line-height: 16vw;
+}
+
+.add_text {
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
