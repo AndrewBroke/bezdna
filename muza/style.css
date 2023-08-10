@@ -46,7 +46,7 @@ main p {
 .act1__picture {
     position: absolute;
     top: 0;
-    right: 0;
+    right: -10px;
     z-index: -1;
     width: 65vw;
 }
