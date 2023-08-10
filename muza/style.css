@@ -28,12 +28,81 @@ header{
 
 main{
     padding-left: 10px;
+    padding-right: 10px;
     font-family: 'Courier New', Courier, monospace;
     color: white;
     font-size: 3vw;
 }
 
 main p {
-    width: 56%;
+    max-width: 55vw;
     text-align: justify;
+}
+
+.act1 {
+    position: relative;
+}
+
+.act1__picture {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    width: 65vw;
+}
+
+.act2__text {
+    /* width: 56vw; */
+    position: relative;
+    top: -10vw;
+}
+
+.act2 {
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+.sep {
+    width: 85vw;
+    position: relative;
+    left: -10px;
+}
+
+.sep::after{
+    content: "";
+    background-image: url("../img/Космос.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100vw;
+    height: 187vw;
+    top: -10vw;
+    left: 0;
+    z-index: -2;
+}
+
+.sep::before{
+    content: "";
+    background-image: url("../img/Некий\ А.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 69vw;
+    position: absolute;
+    z-index: -1;
+    top: 70vw;
+}
+
+.act2::after{
+    content: "";
+    width: 88vw;
+    height: 86vw;
+    background-image: url("../img/Закат.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -25vw;
+    left: -10px;
+    z-index: -1;
 }
