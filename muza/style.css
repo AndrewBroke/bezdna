@@ -1,3 +1,8 @@
+body {
+    background-image: url("../img/Фон.png");
+    background-size: cover;
+    background-repeat: repeat-y;
+}
 
 header{
     font-family: 'Capture it';
@@ -15,4 +20,20 @@ header{
     position: absolute;
     top: 10px;
     left: 0;
+}
+
+.roses{
+    margin-top: 40px;
+}
+
+main{
+    padding-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 3vw;
+}
+
+main p {
+    width: 56%;
+    text-align: justify;
 }
