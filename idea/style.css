@@ -1,0 +1,35 @@
+body{
+    background-image: url(img/Big\ BG.png);
+    background-size: cover;
+    min-height: 318vw;
+    min-width: 98vw;
+}
+
+.first-part {
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    width: 44vw;
+    font-size: 2.43vw;
+    /* color: rgba(255, 255, 255, 0.753); */
+    color: white;
+    top: 28vw;
+    left: 0;
+}
+
+.first-part p {
+    margin: 1.3vw;
+}
+
+.second-part {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2vw;
+    color: white;
+    position: absolute;
+    width: 57vw;
+    top: 181vw;
+    right: 0;
+}
+
+.second-part p {
+    margin: 1.3vw;
+}
